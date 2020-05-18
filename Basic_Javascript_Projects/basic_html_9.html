@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS drills 9</title>
+        <meta charset="utf-8">
+        <script src="JS/basic_javascript_9.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/basic_css_1.css">
+    </head>
+
+    <body>
+        <p>How many seconds would you like to set your alarm for?</p>
+        <input id="seconds" value="">
+        <button onclick="countdown()">Click here</button>
+        <p id="timer"></p>
+
+        <!-- SLIDESHOW -->
+        <div class="SS_container">
+
+            <div class="slide fade">
+                <div class="number">1 / 3</div>
+                <img src="IMG/cat1.jpg">
+                <div class="text"></div>
+            </div>
+
+            <div class="slide fade">
+                <div class="number">2 / 3</div>
+                <img src="IMG/cat3.jpg">
+                <div class="text"></div>
+            </div>
+
+            <div class="slide fade">
+                <div class="number">3 / 3</div>
+                <img src="IMG/cat6.jpg">
+                <div class="text"></div>
+            </div>
+
+            <!-- NEXT & PREVIOUS BUTTONS-->
+            <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlide(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- DOTS -->
+        <div class="dot-align">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </body>
+</html>
