@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+center-container {
+    width: 608px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+td {
+    cursor: pointer;
+    border: 10px solid slategray;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(95, 16, 16);
+}
+
+td:hover {
+    background-color: rgba(110, 108, 108, 0.7);
+}
+
+canvas {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+}
+
+h1 {
+    color: silver;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
